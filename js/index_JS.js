@@ -36,15 +36,15 @@ function defineImagem()
 	
 	else if (url == 2)
 	{	//Definição das Imagens - 2ª opção
-		$("#pImg").attr("src", "img/foto1G.jpg");
-		$("#sImg").attr("src", "img/foto2G.jpeg");
-		$("#tImg").attr("src", "img/foto3G.jpg");
+		$("#pImg").attr("src", "img/foto2G.jpeg");
+		$("#sImg").attr("src", "img/foto3G.jpg");
+		$("#tImg").attr("src", "img/foto1G.jpg");
 	}
 	else if (url == 3)
 	{	//Definição das Imagens - 3ª opção
-		$("#pImg").attr("src", "img/foto1P.jpg");
-		$("#sImg").attr("src", "img/foto2P.jpeg");
-		$("#tImg").attr("src", "img/foto3P.jpg");
+		$("#pImg").attr("src", "img/foto3P.jpg");
+		$("#sImg").attr("src", "img/foto1P.jpg");
+		$("#tImg").attr("src", "img/foto2P.jpeg");
 
 		//definição do estilo - 3ª opção
 		$("img").css("float", "left");
