@@ -55,7 +55,7 @@ function defineImagem()
 
 function opacidade()
 {
-	var pegaId = [" ", " ", " "];
+	var pegaId = [];
 	//definição de opcaidade 1ªImagem
 		$("#pImg").mouseover(function(){
 			$(this).css("opacity", "0.5");
