@@ -55,12 +55,12 @@ function defineImagem()
 
 function opacidade()
 {
-	var pegaId;
+	var pegaId = [" ", " ", " "];
 	//definição de opcaidade 1ªImagem
 		$("#pImg").mouseover(function(){
 			$(this).css("opacity", "0.5");
-			pegaId =this.id;
-			setTimeout(function(){console.log(pegaId)}, 2000);
+			pegaId[0] =this.id;
+			setTimeout(function(){console.log(pegaId[0])}, 2000);
 		});
 		$("#pImg").mouseleave(function(){
 			$(this).css("opacity", "1");
@@ -69,8 +69,8 @@ function opacidade()
 	//definição de opcaidade 2ªImagem	
 		$("#sImg").mouseover(function(){
 			$(this).css("opacity", "0.5");
-			pegaId =this.id;
-			setTimeout(function(){console.log(pegaId)}, 2000);
+			pegaId[1] =this.id;
+			setTimeout(function(){console.log(pegaId[1])}, 2000);
 		});
 		$("#sImg").mouseleave(function(){
 			$(this).css("opacity", "1");
@@ -79,14 +79,14 @@ function opacidade()
 	//definição de opcaidade 3ªImagem
 		$("#tImg").mouseover(function(){
 			$(this).css("opacity", "0.5");
-			pegaId =this.id;
-			setTimeout(function(){console.log(pegaId)}, 2000);
+			pegaId[2] =this.id;
+			setTimeout(function(){console.log(pegaId[2])}, 2000);
 		});
 		$("#tImg").mouseleave(function(){
 			$(this).css("opacity", "1");
 		});
 
-		//transição de opacidade
+	//transição de opacidade
 		$("img").css("transition-property", "opacity");
 		$("img").css("transition-duration", "0.5s");
 }
